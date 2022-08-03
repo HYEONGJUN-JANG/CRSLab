@@ -20,7 +20,7 @@ if __name__ == '__main__':
         pass
     else:
         print("NO CUDA")
-        exit()
+        exit() ## Exit
     parser = argparse.ArgumentParser()
     parser.add_argument('-c', '--config', type=str,
                         # default='config/crs/kbrd/redial.yaml', help='config file(yaml) path')
