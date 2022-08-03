@@ -141,8 +141,9 @@ class ReDialConvModel(BaseModel):
                                  context_state)  # (batch_size, max_utterance_length, vocab_size + 1)
         preds = log_probs.argmax(dim=-1)  # (batch_size, max_utterance_length)
 
-        log_probs = log_probs.view(-1, log_probs.shape[-1])
+        log_probs = log_probs.view(-1, log_probs.shape[-1]) # [128,42]
         response = batch['response'].view(-1)
         loss = self.loss(log_probs, response)
 
+        # return loss, preds #default
         return loss, preds

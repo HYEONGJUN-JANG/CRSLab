@@ -376,3 +376,7 @@ class BaseSystem(ABC):
             if entity:
                 linked_entities.append(entity[0])
         return linked_entities
+
+    # @abstractmethod
+    # def printConv(self):
+    #     pass

@@ -109,6 +109,7 @@ class KGSFSystem(BaseSystem):
             else:
                 pred = self.model.forward(batch, stage, mode)
                 self.conv_evaluate(pred, batch[-1])
+            return pred
         else:
             raise
 
@@ -153,18 +154,20 @@ class KGSFSystem(BaseSystem):
 
     def train_conversation(self):
         if os.environ["CUDA_VISIBLE_DEVICES"] == '-1':
-            self.model.freeze_parameters()
+            self.model.module.freeze_parameters()
         else:
             self.model.module.freeze_parameters()
         self.init_optim(self.conv_optim_opt, self.model.parameters())
-
+        templist=[] #HJ
         for epoch in range(self.conv_epoch):
             self.evaluator.reset_metrics()
             logger.info(f'[Conversation epoch {str(epoch)}]')
             logger.info('[Train]')
             for batch in self.train_dataloader.get_conv_data(batch_size=self.conv_batch_size, shuffle=False):
-                self.step(batch, stage='conv', mode='train')
+                # self.step(batch, stage='conv', mode='train')
+                self.step(batch, stage='conv', mode='train') #HJ
             self.evaluator.report(epoch=epoch, mode='train')
+
             # val
             logger.info('[Valid]')
             with torch.no_grad():
@@ -177,8 +180,11 @@ class KGSFSystem(BaseSystem):
         with torch.no_grad():
             self.evaluator.reset_metrics()
             for batch in self.test_dataloader.get_conv_data(batch_size=self.conv_batch_size, shuffle=False):
-                self.step(batch, stage='conv', mode='test')
+                preds = self.step(batch, stage='conv', mode='test')
+                templist.append(self.printConv(batch,preds)) #HJ
             self.evaluator.report(mode='test')
+        self.saveConv(templist)
+
 
     def fit(self):
         self.pretrain()
@@ -187,3 +193,46 @@ class KGSFSystem(BaseSystem):
 
     def interact(self):
         pass
+
+    def printConv(self,batch,preds):
+        '''
+        :param batch: batch (dict) 를 그대로 받는것
+        :param preds: preds로 step의 결과인 token index list (2-dim)
+        :return: 3-dim array [B,[context(1d list),response(text),pred(text)]]
+        '''
+        uttrlist = []
+        # 원본문장?
+        batchlen=len(batch[0])
+        contexts=batch[0].tolist()
+        # entities=batch[1].tolist()
+        # words=batch[2].tolist()
+        responses=batch[3].tolist()
+        for bt in range(batchlen):
+            context = self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x : x, contexts[bt]))])
+            # ents=self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x : x, entities[bt]))])
+            response=self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x : x, responses[bt]))]) # response
+            pred=self.list2Text([self.ind2tok.get(i) for i in preds[bt].tolist()])
+
+            uttrlist.append([context,response,pred])
+        return uttrlist
+
+    def list2Text(self,wlist,totok=None):
+        txt=''
+        for i in wlist:
+            if i!=totok: txt+=f'{i} '
+            else: txt+=f'<TOK> '
+        return txt.rstrip()
+
+    def saveConv(self,convlist):
+        path=f"./convlog_{str(self.model.module).split('(')[0]}.txt"
+        with open(path,'w',encoding='UTF-8') as f:
+            for i in convlist:
+                for k in i:
+                    context, response, pred = k
+                    f.write("<< Context >>\n")
+                    # for cont in context:
+                    f.write(f"{context}\n")
+                    f.write(f"\n<<Real Response>> : {response}\n")
+                    f.write(f"<<Created Response>>: {pred}\n")
+                    f.write("\n================< NEW LINE >================\n\n")
+        print(f"Conversation Saved in {path}")

@@ -88,8 +88,17 @@ class ReDialSystem(BaseSystem):
                 self.rec_evaluate(rec_scores, batch['item'])
             rec_loss = rec_loss.item()
             self.evaluator.optim_metrics.add("rec_loss", AverageMetric(rec_loss))
-        else:
-            gen_loss, preds = self.conv_model.forward(batch, mode=mode)
+        else: # Conversation
+            # gen_loss, preds , batch_response = self.conv_model.forward(batch, mode=mode)
+            gen_loss, preds = self.conv_model.forward(batch, mode=mode) # TODO : DEFAULT
+
+
+            # HJ
+            # batch_response = batch['response'].view(-1)
+            # [self.ind2tok.get(i) for i in batch['request'][0][:batch['request_lengths'][0]].tolist()]  # request
+            # batch response [self.ind2tok.get(i) for i in batch_response.tolist()[:15]]
+
+
             gen_loss = gen_loss.sum()
             if mode == 'train':
                 self.backward(gen_loss)
@@ -98,6 +107,7 @@ class ReDialSystem(BaseSystem):
             gen_loss = gen_loss.item()
             self.evaluator.optim_metrics.add('gen_loss', AverageMetric(gen_loss))
             self.evaluator.gen_metrics.add('ppl', PPLMetric(gen_loss))
+            return preds
 
     def train_recommender(self):
         self.init_optim(self.rec_optim_opt, self.rec_model.parameters())
@@ -130,7 +140,7 @@ class ReDialSystem(BaseSystem):
 
     def train_conversation(self):
         self.init_optim(self.conv_optim_opt, self.conv_model.parameters())
-
+        templist=[]
         for epoch in range(self.conv_epoch):
             self.evaluator.reset_metrics()
             logger.info(f'[Conversation epoch {str(epoch)}]')
@@ -147,19 +157,90 @@ class ReDialSystem(BaseSystem):
                     self.step(batch, stage='conv', mode='valid')
                 self.evaluator.report(epoch=epoch, mode='valid')
                 metric = self.evaluator.optim_metrics['gen_loss']
+                # if epoch%2==0:
+                #     templist.append(self.printConv(batch,preds))
                 if self.early_stop(metric):
                     break
+
         # test
-        logger.info('[Test]')
+        logger.info('[Test-Redial]')
         with torch.no_grad():
             self.evaluator.reset_metrics()
             for batch in self.test_dataloader['conv'].get_conv_data(batch_size=self.conv_batch_size, shuffle=False):
-                self.step(batch, stage='conv', mode='test')
+                preds = self.step(batch, stage='conv', mode='test')
+                templist.append(self.printConv(batch, preds)) # HJ : For Conv 저장용
             self.evaluator.report(mode='test')
+        self.saveConv(templist) # HJ : For Conv 저장용
 
     def fit(self):
         self.train_recommender()
         self.train_conversation()
 
+
+
     def interact(self):
         pass
+
+    def print2dTokArr(self, idxlist, tdic=None, padtok=0):
+        '''
+        :param idxlist: 2-dim Tensor
+        :param tdic: key-value dictionary, key is int
+        :param padtok: padding token idx which if skipped
+        :return: text list composed with idx-list-token value without padding
+        '''
+        # if idxlist.size()
+        tlist=[]
+        if tdic:
+            for i in idxlist:
+                txt=''
+                for t in list(filter(lambda x: x!=padtok, i)):
+                    txt+= f'{tdic.get(t)} '
+                if txt: tlist.append(txt.rstrip())
+        else:
+            for i in idxlist:
+                txt=''
+                for t in list(filter(lambda x:x!=padtok, i)): ## 0 일경우 '__pad__' 니까 넘겨버리자
+                        txt+=f'{self.ind2tok.get(t)} '
+                if txt: tlist.append(txt.rstrip())
+        return tlist
+
+    def printConv(self,batch,preds):
+        '''
+        :param batch: batch (dict) 를 그대로 받는것
+        :param preds: preds로 step의 결과인 token index list (2-dim)
+        :return: 3-dim array [B,[context(1d list),response(text),pred(text)]]
+        '''
+        uttrlist = []
+        # 원본문장?
+        batchlen=batch['context'].shape[0]
+        for i in range(batchlen):
+            texts = self.print2dTokArr(batch['context'][i].tolist())
+            req=self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x : x, batch.get('request')[i].tolist()))])
+            repn=self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x : x, batch.get('response')[i].tolist()))])
+            pred=self.list2Text([self.ind2tok.get(i) for i in preds[i].tolist()])
+            if texts[-1] == req: # Redial의 경우 context의 마지막발화가 request이고, 그것에 대한 응답이 response
+                uttrlist.append([texts,repn,pred])
+        return uttrlist
+
+    def list2Text(self,wlist):
+        txt=''
+        for i in wlist:
+            if i: txt+=f'{i} '
+            else: txt+=f'<TOK> '
+        return txt.rstrip()
+
+    def saveConv(self,convlist):
+        path=f"./convlog_{str(self.model.module).split('(')[0]}.txt"
+        with open(path,'w') as f:
+            for i in convlist:
+                for k in i:
+                    context, response, pred = k
+                    f.write("<< Context >>\n")
+                    for cont in context:
+                        f.write(f"{cont}\n")
+                    f.write(f"\n<<Real Response>> : {response}\n")
+                    f.write(f"<<Created Response>>: {pred}\n")
+                    f.write("\n================< NEW LINE >================\n\n")
+        print(f"Conversation Saved in {path}")
+
+

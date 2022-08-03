@@ -286,7 +286,7 @@ class KGSFModel(BaseModel):
         return self.START.detach().expand(batch_size, 1)
 
     def _decode_forced_with_kg(self, token_encoding, entity_reps, entity_emb_attn, entity_mask,
-                               word_reps, word_emb_attn, word_mask, response):
+                               word_reps, word_emb_attn, word_mask, response, copy=True):
         batch_size, seq_len = response.shape
         start = self._starts(batch_size)
         inputs = torch.cat((start, response[:, :-1]), dim=-1).long()
@@ -301,12 +301,14 @@ class KGSFModel(BaseModel):
         copy_logits = self.copy_output(copy_latent) * self.copy_mask.unsqueeze(0).unsqueeze(
             0)  # (bs, seq_len, vocab_size)
         gen_logits = F.linear(dialog_latent, self.token_embedding.weight)  # (bs, seq_len, vocab_size)
-        sum_logits = copy_logits + gen_logits
+        # sum_logits = copy_logits + gen_logits # With Copying
+        # sum_logits =  gen_logits # HJ : Without Copying
+        sum_logits = copy_logits + gen_logits if copy else gen_logits # HJ
         preds = sum_logits.argmax(dim=-1)
         return sum_logits, preds
 
     def _decode_greedy_with_kg(self, token_encoding, entity_reps, entity_emb_attn, entity_mask,
-                               word_reps, word_emb_attn, word_mask):
+                               word_reps, word_emb_attn, word_mask, copy=True):
         batch_size = token_encoding[0].shape[0]
         inputs = self._starts(batch_size).long()
         incr_state = None
@@ -321,7 +323,9 @@ class KGSFModel(BaseModel):
 
             copy_logits = self.copy_output(copy_latent) * self.copy_mask.unsqueeze(0).unsqueeze(0)
             gen_logits = F.linear(dialog_latent, self.token_embedding.weight)
-            sum_logits = copy_logits + gen_logits
+            # sum_logits = copy_logits + gen_logits # With Copying
+            # sum_logits = gen_logits  # HJ : Without Copying
+            sum_logits = copy_logits + gen_logits if copy else gen_logits  # HJ
             preds = sum_logits.argmax(dim=-1).long()
             logits.append(sum_logits)
             inputs = torch.cat((inputs, preds), dim=1)
@@ -425,20 +429,21 @@ class KGSFModel(BaseModel):
         conv_word_emb = self.conv_word_attn_norm(word_attn_rep)
         conv_entity_reps = self.conv_entity_norm(entity_representations)
         conv_word_reps = self.conv_word_norm(word_representations)
-        if mode != 'test':
+        copying=False # HJ Copy 할지 여부
+        if mode != 'test': # Train , Valid
             logits, preds = self._decode_forced_with_kg(tokens_encoding, conv_entity_reps, conv_entity_emb,
                                                         entity_padding_mask,
                                                         conv_word_reps, conv_word_emb, word_padding_mask,
-                                                        response)
+                                                        response, copy=copying)
 
             logits = logits.view(-1, logits.shape[-1])
             response = response.view(-1)
             loss = self.conv_loss(logits, response)
             return loss, preds
-        else:
+        else: # Test
             logits, preds = self._decode_greedy_with_kg(tokens_encoding, conv_entity_reps, conv_entity_emb,
                                                         entity_padding_mask,
-                                                        conv_word_reps, conv_word_emb, word_padding_mask)
+                                                        conv_word_reps, conv_word_emb, word_padding_mask, copy=copying)
             return preds
 
     def forward(self, batch, stage, mode):

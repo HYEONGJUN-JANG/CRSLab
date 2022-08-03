@@ -60,7 +60,7 @@ class BaseDataLoader(ABC):
         if shuffle:
             random.shuffle(idx_list)
 
-        for start_idx in tqdm(range(batch_num)):
+        for start_idx in tqdm(range(batch_num), bar_format=' {percentage:3.0f} % | {bar:23} {r_bar}'):
             batch_idx = idx_list[start_idx * batch_size: (start_idx + 1) * batch_size]
             batch = [dataset[idx] for idx in batch_idx]
             batch = batch_fn(batch)

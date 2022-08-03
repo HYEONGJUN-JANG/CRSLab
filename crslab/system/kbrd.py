@@ -99,6 +99,7 @@ class KBRDSystem(BaseSystem):
             else:
                 preds = self.model.forward(batch, mode, stage)
                 self.conv_evaluate(preds, batch['response'])
+            return preds
 
     def train_recommender(self):
         self.init_optim(self.rec_optim_opt, self.model.parameters())
@@ -131,14 +132,17 @@ class KBRDSystem(BaseSystem):
 
     def train_conversation(self):
         self.init_optim(self.conv_optim_opt, self.model.parameters())
+        templist=[]
 
         for epoch in range(self.conv_epoch):
             self.evaluator.reset_metrics()
             logger.info(f'[Conversation epoch {str(epoch)}]')
             logger.info('[Train]')
             for batch in self.train_dataloader.get_conv_data(batch_size=self.conv_batch_size):
-                self.step(batch, stage='conv', mode='train')
+                preds=self.step(batch, stage='conv', mode='train')
+                templist.append(self.printConv(batch, preds))  # HJ : For Conv 저장용
             self.evaluator.report(epoch=epoch, mode='train')
+            self.saveConv(templist)
             # val
             logger.info('[Valid]')
             with torch.no_grad():
@@ -148,19 +152,55 @@ class KBRDSystem(BaseSystem):
                 self.evaluator.report(epoch=epoch, mode='valid')
                 # early stop
                 metric = self.evaluator.optim_metrics['gen_loss']
+
                 if self.early_stop(metric):
                     break
         # test
         logger.info('[Test]')
         with torch.no_grad():
+            templist=[]
             self.evaluator.reset_metrics()
             for batch in self.test_dataloader.get_conv_data(batch_size=self.conv_batch_size, shuffle=False):
-                self.step(batch, stage='conv', mode='test')
+                preds = self.step(batch, stage='conv', mode='test')
+                templist.append(self.printConv(batch, preds))  # HJ : For Conv 저장용
             self.evaluator.report(mode='test')
-
+        self.saveConv(templist)
     def fit(self):
-        self.train_recommender()
+        # self.train_recommender()
         self.train_conversation()
 
     def interact(self):
         pass
+
+    def printConv(self, batch, preds):
+        uttrlist = []
+        context = batch['context_tokens'].tolist()
+        response = batch['response'].tolist()
+        # self.end_token_idx
+        for bt in range(len(context)):
+            btcont = self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x: x!=0, context[bt]))])
+            btresp = self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x: x!=0, response[bt]))])
+            pred = self.list2Text([self.ind2tok.get(i) for i in list(filter(lambda x:x!=0, preds[bt]))])
+            uttrlist.append([btcont,btresp,pred])
+        return uttrlist
+
+    def list2Text(self,wlist):
+        txt=''
+        for i in wlist:
+            if i!='__pad__': txt+=f'{i} '
+            else: txt+=f'<TOK> '
+        return txt.rstrip()
+
+    def saveConv(self,convlist):
+        path=f"./convlog_{str(self.model.module).split('(')[0]}.txt"
+        with open(path,'w') as f:
+            for i in convlist:
+                for k in i:
+                    context, response, pred = k
+                    f.write("<< Context >>\n")
+                    # for cont in context:
+                    f.write(f"{context}\n")
+                    f.write(f"\n<<Real Response>> : {response}\n")
+                    f.write(f"<<Created Response>>: {pred}\n")
+                    f.write("\n================< NEW LINE >================\n\n")
+        print(f"Conversation Saved in {path}")
