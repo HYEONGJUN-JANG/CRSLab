@@ -83,7 +83,7 @@ class ReDialDataLoader(BaseDataLoader):
 
     def conv_process_fn(self):
         dataset = []
-        for conversation in tqdm(self.dataset):
+        for conversation in tqdm(self.dataset, bar_format=' {percentage:3.0f} % | {bar:23} {r_bar}'):
             if conversation['role'] != 'Recommender':
                 continue
             context_tokens = [truncate(utterance, self.utterance_truncate, truncate_tail=True) for utterance in

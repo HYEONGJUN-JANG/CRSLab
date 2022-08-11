@@ -429,7 +429,8 @@ class KGSFModel(BaseModel):
         conv_word_emb = self.conv_word_attn_norm(word_attn_rep)
         conv_entity_reps = self.conv_entity_norm(entity_representations)
         conv_word_reps = self.conv_word_norm(word_representations)
-        copying=False # HJ Copy 할지 여부
+        
+        copying=True # HJ Copy 할지 여부
         if mode != 'test': # Train , Valid
             logits, preds = self._decode_forced_with_kg(tokens_encoding, conv_entity_reps, conv_entity_emb,
                                                         entity_padding_mask,

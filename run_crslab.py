@@ -44,8 +44,12 @@ if __name__ == '__main__':
     args, _ = parser.parse_known_args()
 
     config = Config(args.config, args.gpu, args.debug)
+<<<<<<< HEAD
+    
+=======
 
     args.tensorboard=True
+>>>>>>> 890dcae6ff05781fd1f7fc83b1c064ef70f67501
     from crslab.quick_start import run_crslab
 
     run_crslab(config, args.save_data, args.restore_data, args.save_system, args.restore_system, args.interact,
