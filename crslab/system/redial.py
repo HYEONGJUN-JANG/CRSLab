@@ -230,7 +230,10 @@ class ReDialSystem(BaseSystem):
         return txt.rstrip()
 
     def saveConv(self,convlist):
-        path=f"./convlog_{str(self.model.module).split('(')[0]}.txt"
+        try:
+            path=f"./convlog_{str(self.model.module).split('(')[0]}.txt"
+        except: # For Redial Error (No Module)
+            path=f"./convlog_{str(self).split()[0].split('.')[-1]}.txt"
         with open(path,'w') as f:
             for i in convlist:
                 for k in i:

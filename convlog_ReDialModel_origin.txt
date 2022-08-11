@@ -1,0 +1,896 @@
+<< Context >>
+Hi I am looking for a movie like @111776
+
+<<Real Response>> : You should watch <TOK>
+<<Created Response>>: Hello what seen seen <TOK> <TOK> . <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hi I am looking for a movie like @111776
+You should watch @151656
+Is that a great one ? I have never seen it . I have seen @192131 I mean @134643
+
+<<Real Response>> : Yes <TOK> is very funny and so is <TOK>
+<<Created Response>>: I you <TOK> . . . . is . <TOK> <TOK> . . is <TOK> . ! the . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hi I am looking for a movie like @111776
+You should watch @151656
+Is that a great one ? I have never seen it . I have seen @192131 I mean @134643
+Yes @151656 is very funny and so is @94688
+It sounds like I need to check them out
+
+<<Real Response>> : yes you will enjoy them
+<<Created Response>>: I you <TOK> <TOK> <TOK> . ! <TOK> a <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hi I am looking for a movie like @111776
+You should watch @151656
+Is that a great one ? I have never seen it . I have seen @192131 I mean @134643
+Yes @151656 is very funny and so is @94688
+It sounds like I need to check them out
+yes you will enjoy them
+I appreciate your time . I will need to check those out . Are there any others you would recommend ?
+
+<<Real Response>> : yes <TOK>
+<<Created Response>>: I I , . . . . <TOK> . ! I a . . I <TOK> <TOK> <TOK> good you <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hi I am looking for a movie like @111776
+You should watch @151656
+Is that a great one ? I have never seen it . I have seen @192131 I mean @134643
+Yes @151656 is very funny and so is @94688
+It sounds like I need to check them out
+yes you will enjoy them
+I appreciate your time . I will need to check those out . Are there any others you would recommend ?
+yes @101794
+Thank you i will watch that too
+
+<<Real Response>> : and also <TOK>
+<<Created Response>>: I I you you I ! is <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hi I am looking for a movie like @111776
+You should watch @151656
+Is that a great one ? I have never seen it . I have seen @192131 I mean @134643
+Yes @151656 is very funny and so is @94688
+It sounds like I need to check them out
+yes you will enjoy them
+I appreciate your time . I will need to check those out . Are there any others you would recommend ?
+yes @101794
+Thank you i will watch that too
+and also @91481
+Thanks for the suggestions .
+
+<<Real Response>> : you are welcome and also <TOK>
+<<Created Response>>: I <TOK> <TOK> . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+
+<<Real Response>> : What kind of movies do you like ?
+<<Created Response>>: Hi , <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+What kind of movies do you like ?
+I am looking for a movie recommendation . When I was younger I really enjoyed the @77161
+
+<<Real Response>> : Oh , you like scary movies ? I recently watched <TOK>
+<<Created Response>>: I you seen <TOK> <TOK> . . . <TOK> . good . the . . <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+What kind of movies do you like ?
+I am looking for a movie recommendation . When I was younger I really enjoyed the @77161
+Oh , you like scary movies ? I recently watched @204334
+I also enjoyed watching @132562
+
+<<Real Response>> : It was really good for a new & quot ; scary movie & quot ;
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+What kind of movies do you like ?
+I am looking for a movie recommendation . When I was younger I really enjoyed the @77161
+Oh , you like scary movies ? I recently watched @204334
+I also enjoyed watching @132562
+It was really good for a new & quot ; scary movie & quot ;
+I do enjoy some of the newer horror movies that I have seen as well .
+
+<<Real Response>> : I heard that <TOK> is good . It is still in theaters though .
+<<Created Response>>: I you you a ! <TOK> . was <TOK> you the is good good good . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+What kind of movies do you like ?
+I am looking for a movie recommendation . When I was younger I really enjoyed the @77161
+Oh , you like scary movies ? I recently watched @204334
+I also enjoyed watching @132562
+It was really good for a new & quot ; scary movie & quot ;
+I do enjoy some of the newer horror movies that I have seen as well .
+I heard that @205430 is good . It is still in theaters though .
+I really liked the movie @125431
+
+<<Real Response>> : Me , too ! It was really creepy , but I thought it was good !
+<<Created Response>>: I , . good . a <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+What kind of movies do you like ?
+I am looking for a movie recommendation . When I was younger I really enjoyed the @77161
+Oh , you like scary movies ? I recently watched @204334
+I also enjoyed watching @132562
+It was really good for a new & quot ; scary movie & quot ;
+I do enjoy some of the newer horror movies that I have seen as well .
+I heard that @205430 is good . It is still in theaters though .
+I really liked the movie @125431
+Me , too ! It was really creepy , but I thought it was good !
+Or @118338 I saw while in theaters , this was a very good movie . It had me on the edge of my seat for the whole show .
+
+<<Real Response>> : I 'm not sure if I saw that one , I 'll have to check into it . Sounds familiar , but not sure . Thank you for your suggestions !
+<<Created Response>>: I you ! good , a is . ! the a a . . . I <TOK> I , good ! ! ? ! a good it . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+What kind of movies do you like ?
+I am looking for a movie recommendation . When I was younger I really enjoyed the @77161
+Oh , you like scary movies ? I recently watched @204334
+I also enjoyed watching @132562
+It was really good for a new & quot ; scary movie & quot ;
+I do enjoy some of the newer horror movies that I have seen as well .
+I heard that @205430 is good . It is still in theaters though .
+I really liked the movie @125431
+Me , too ! It was really creepy , but I thought it was good !
+Or @118338 I saw while in theaters , this was a very good movie . It had me on the edge of my seat for the whole show .
+I 'm not sure if I saw that one , I 'll have to check into it . Sounds familiar , but not sure . Thank you for your suggestions !
+Are there any comedies that you would suggest ?
+
+<<Real Response>> : Sure ! I like comedies a lot . I like movies like <TOK> and <TOK> , but I also like <TOK> and <TOK> .
+<<Created Response>>: I I I <TOK> you <TOK> good . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello !
+Hello !
+What kind of movies do you like ?
+I am looking for a movie recommendation . When I was younger I really enjoyed the @77161
+Oh , you like scary movies ? I recently watched @204334
+I also enjoyed watching @132562
+It was really good for a new & quot ; scary movie & quot ;
+I do enjoy some of the newer horror movies that I have seen as well .
+I heard that @205430 is good . It is still in theaters though .
+I really liked the movie @125431
+Me , too ! It was really creepy , but I thought it was good !
+Or @118338 I saw while in theaters , this was a very good movie . It had me on the edge of my seat for the whole show .
+I 'm not sure if I saw that one , I 'll have to check into it . Sounds familiar , but not sure . Thank you for your suggestions !
+Are there any comedies that you would suggest ?
+Sure ! I like comedies a lot . I like movies like @175203 and @111776 , but I also like @187061 and @157765 .
+Wonderful ! Thank you so much I think I am ready for movie night now .
+
+<<Real Response>> : No problem ! Thank you , too ! : )
+<<Created Response>>: I , . . you ! ! . . a a <TOK> is ? . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what would you like to watch ?
+@138780
+
+<<Real Response>> : Did you watch <TOK> ? Or <TOK> ? i really liked it
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what would you like to watch ?
+@138780
+Did you watch @205163 ? Or @162943 ? i really liked it
+No , I think I would like to watch @138780 It 's funny
+
+<<Real Response>> : But You already know what you want to watch You should tell me what kind of movies you like Did you watch <TOK> ? Do you like scary movies ? Did you watch <TOK> ?
+<<Created Response>>: <TOK> <TOK> <TOK> . <TOK> good <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what would you like to watch ?
+@138780
+Did you watch @205163 ? Or @162943 ? i really liked it
+No , I think I would like to watch @138780 It 's funny
+But You already know what you want to watch You should tell me what kind of movies you like Did you watch @78874 ? Do you like scary movies ? Did you watch @187028 ?
+Yes I like Adam sandler . @90253 is another good movie by him I did not see the movie @187028
+
+<<Real Response>> : Yes i think so i hope i have helped good bye
+<<Created Response>>: I <TOK> <TOK> <TOK> . . <TOK> is <TOK> . . . . . is is ! <TOK> . ! <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+i would like to watch any movie Tell me any movie Like @205163
+
+<<Real Response>> : Have you seen <TOK>
+<<Created Response>>: <TOK> , <TOK> . <TOK> <TOK> <TOK> . <TOK> <TOK> <TOK> <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+i would like to watch any movie Tell me any movie Like @205163
+Have you seen @78418
+i really enjoyed that one Yes and i liked it Which another one would you recommend me ?
+
+<<Real Response>> : Do you like scary Have you seen <TOK>
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+i would like to watch any movie Tell me any movie Like @205163
+Have you seen @78418
+i really enjoyed that one Yes and i liked it Which another one would you recommend me ?
+Do you like scary Have you seen @187028
+i watched @114756 and a liked it
+
+<<Real Response>> : Or __unk__
+<<Created Response>>: I you you I <TOK> . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+i would like to watch any movie Tell me any movie Like @205163
+Have you seen @78418
+i really enjoyed that one Yes and i liked it Which another one would you recommend me ?
+Do you like scary Have you seen @187028
+i watched @114756 and a liked it
+Or __unk__
+No , i have not seen @187028 But i 'll try Thank you for helping me Good bye
+
+<<Real Response>> : If you like superhero <TOK> is also a very good one Goodbye
+<<Created Response>>: I you you is is <TOK> ! a <TOK> <TOK> <TOK> . <TOK> <TOK> ? <TOK> . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+What kind of movies do you like have you seen @205163 ? or @99896
+Yes and i liked them Those are awesome I like that kind of movies
+
+<<Real Response>> : <TOK>
+<<Created Response>>: <TOK> <TOK> <TOK> . <TOK> <TOK> you . <TOK> <TOK> you . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+What kind of movies do you like have you seen @205163 ? or @99896
+Yes and i liked them Those are awesome I like that kind of movies
+@154513
+i also watched @99583
+
+<<Real Response>> : those are good movies as well
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+What kind of movies do you like have you seen @205163 ? or @99896
+Yes and i liked them Those are awesome I like that kind of movies
+@154513
+i also watched @99583
+those are good movies as well
+No , i have not watched that one i think i will try that one
+
+<<Real Response>> : <TOK> was another good xmen movie okay thanks !
+<<Created Response>>: It you <TOK> is is a a <TOK> <TOK> . <TOK> . <TOK> ! <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I like scary movies
+
+<<Real Response>> : did you watch <TOK>
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I like scary movies
+did you watch @205163
+i did not but i want to
+
+<<Real Response>> : So , did you watch <TOK> ?
+<<Created Response>>: <TOK> , <TOK> <TOK> <TOK> <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I like scary movies
+did you watch @205163
+i did not but i want to
+So , did you watch @187028 ?
+have you seen @187028
+
+<<Real Response>> : And <TOK> ?
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I like scary movies
+did you watch @205163
+i did not but i want to
+So , did you watch @187028 ?
+have you seen @187028
+And @204794 ?
+no but i like the old one yes i like that __unk__
+
+<<Real Response>> : Yes i have , that 's why i told you
+<<Created Response>>: I <TOK> <TOK> <TOK> <TOK> a . <TOK> <TOK> <TOK> you <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I like scary movies
+did you watch @205163
+i did not but i want to
+So , did you watch @187028 ?
+have you seen @187028
+And @204794 ?
+no but i like the old one yes i like that __unk__
+Yes i have , that 's why i told you
+yes i like that version
+
+<<Real Response>> : and did you watch <TOK> ? That is very scary
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I like scary movies
+did you watch @205163
+i did not but i want to
+So , did you watch @187028 ?
+have you seen @187028
+And @204794 ?
+no but i like the old one yes i like that __unk__
+Yes i have , that 's why i told you
+yes i like that version
+and did you watch @76012 ? That is very scary
+It is very scary ank you for the suggestions goodbye
+
+<<Real Response>> : i hope i have helped bye good bye
+<<Created Response>>: I , , seen . <TOK> <TOK> <TOK> . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like to watch scary movies
+
+<<Real Response>> : tell me what kind of movie do you like ? Did you watch <TOK> ? And <TOK> ?
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like to watch scary movies
+tell me what kind of movie do you like ? Did you watch @187028 ? And @204794 ?
+I have seen the old one
+
+<<Real Response>> : Did you watch <TOK> ?
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like to watch scary movies
+tell me what kind of movie do you like ? Did you watch @187028 ? And @204794 ?
+I have seen the old one
+Did you watch @76012 ?
+i have not seen the new one i do like the __unk__
+
+<<Real Response>> : Ok , you should watch the new one Even though i would rather the old one And did you watch <TOK> ? i hope i have helped
+<<Created Response>>: I is is <TOK> <TOK> you . <TOK> it <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like to watch scary movies
+tell me what kind of movie do you like ? Did you watch @187028 ? And @204794 ?
+I have seen the old one
+Did you watch @76012 ?
+i have not seen the new one i do like the __unk__
+Ok , you should watch the new one Even though i would rather the old one And did you watch @150640 ? i hope i have helped
+no I have not but it sounds scary ! thank you for the suggestions !
+
+<<Real Response>> : You should try them your welcome good bye
+<<Created Response>>: I , is is . a . seen , . . <TOK> . . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I love to watch funny movies
+
+<<Real Response>> : Did you watch <TOK> ?
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I love to watch funny movies
+Did you watch @78874 ?
+yes , i love adam sandler
+
+<<Real Response>> : and <TOK> ? Yes he is very funny Do you not like scary movies ?
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> ! <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I love to watch funny movies
+Did you watch @78874 ?
+yes , i love adam sandler
+and @79851 ? Yes he is very funny Do you not like scary movies ?
+just watched the __unk__ last night ! there is a new one @195759 i like some scary movie
+
+<<Real Response>> : And did you watch <TOK> ? Hahaha you enjoy those kind of movies ! ! i hope i have helped
+<<Created Response>>: I you <TOK> <TOK> . ? . I is a you . <TOK> you <TOK> a . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Tell me what kind of movies do you like ?
+I love to watch funny movies
+Did you watch @78874 ?
+yes , i love adam sandler
+and @79851 ? Yes he is very funny Do you not like scary movies ?
+just watched the __unk__ last night ! there is a new one @195759 i like some scary movie
+And did you watch @108426 ? Hahaha you enjoy those kind of movies ! ! i hope i have helped
+That one is the best ! thanks for the help goodbye !
+
+<<Real Response>> : good bye
+<<Created Response>>: I you is <TOK> ! . . a . a . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello me what kind of movies do you like ?
+I like all movies , what are your suggestions ?
+
+<<Real Response>> : Did you watch <TOK> ?
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello me what kind of movies do you like ?
+I like all movies , what are your suggestions ?
+Did you watch @205163 ?
+No heard it is very good
+
+<<Real Response>> : I can tell you to watch <TOK> Yes it is really good
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello me what kind of movies do you like ?
+I like all movies , what are your suggestions ?
+Did you watch @205163 ?
+No heard it is very good
+I can tell you to watch @78874 Yes it is really good
+I love Adam Sandler movies
+
+<<Real Response>> : You can watch too if you want to <TOK> But that is a scary one i would recommend you <TOK>
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello me what kind of movies do you like ?
+I like all movies , what are your suggestions ?
+Did you watch @205163 ?
+No heard it is very good
+I can tell you to watch @78874 Yes it is really good
+I love Adam Sandler movies
+You can watch too if you want to @76012 But that is a scary one i would recommend you @99583
+Sounds scary but will have to check it out ! These are great suggestions
+
+<<Real Response>> : And also <TOK>
+<<Created Response>>: I you . ! is . ! a a . good . . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello me what kind of movies do you like ?
+I like all movies , what are your suggestions ?
+Did you watch @205163 ?
+No heard it is very good
+I can tell you to watch @78874 Yes it is really good
+I love Adam Sandler movies
+You can watch too if you want to @76012 But that is a scary one i would recommend you @99583
+Sounds scary but will have to check it out ! These are great suggestions
+And also @165531
+Thank you !
+
+<<Real Response>> : Yes I hope i have helped Good bye Enjoy them
+<<Created Response>>: I I , <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+What kind of movies do you like ?
+Hello i open to any movie
+
+<<Real Response>> : have you seen <TOK>
+<<Created Response>>: Hi you you . <TOK> of <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+What kind of movies do you like ?
+Hello i open to any movie
+have you seen @205163
+yes i liked that one actually i want to watch it again i also watch @99583
+
+<<Real Response>> : or the <TOK> was a __unk__ one ot
+<<Created Response>>: <TOK> <TOK> <TOK> you <TOK> <TOK> <TOK> <TOK> . <TOK> <TOK> ! <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+What kind of movies do you like ?
+Hello i open to any movie
+have you seen @205163
+yes i liked that one actually i want to watch it again i also watch @99583
+or the @136632 was a __unk__ one ot
+i watched @165531 the old one i have not seen the new one
+
+<<Real Response>> : if you like scary movies <TOK> is pretty scary
+<<Created Response>>: I you a <TOK> a . <TOK> is is <TOK> <TOK> . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hi
+hello i am open to any movie Whatever you recommend i watched @205163 and i liked it i also liked @78874 i like movies made by Adan Sandler As Marvel movies too
+
+<<Real Response>> : My fav movie is <TOK>
+<<Created Response>>: What you seen you . <TOK> of . <TOK> you ? . . . ? . . ? <TOK> . <TOK> ? <TOK> <TOK> <TOK> . . ? ! <TOK> <TOK> is <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hi
+hello i am open to any movie Whatever you recommend i watched @205163 and i liked it i also liked @78874 i like movies made by Adan Sandler As Marvel movies too
+My fav movie is @183056
+Do you mean @183056 ? i have not seen it but i will try i watched @99583 and i really liked
+
+<<Real Response>> : <TOK> was good
+<<Created Response>>: I you you you <TOK> ? is is good . . ? ! ! ? a . . ? . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hi
+hello i am open to any movie Whatever you recommend i watched @205163 and i liked it i also liked @78874 i like movies made by Adan Sandler As Marvel movies too
+My fav movie is @183056
+Do you mean @183056 ? i have not seen it but i will try i watched @99583 and i really liked
+@141566 was good
+Yeah i enjoyed it thank you for helping me good bye
+
+<<Real Response>> : Ok
+<<Created Response>>: I I I . . . <TOK> . ! . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello
+
+<<Real Response>> : hi
+<<Created Response>>: Hello <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello
+hi
+i 'm open to any movie What would you recommend me ? i liked @205163
+
+<<Real Response>> : <TOK> is my fav
+<<Created Response>>: I you you you <TOK> is ! good <TOK> you <TOK> <TOK> ? . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello
+hi
+i 'm open to any movie What would you recommend me ? i liked @205163
+@183056 is my fav
+i also like scary movies i watched @183056
+
+<<Real Response>> : how about <TOK>
+<<Created Response>>: I <TOK> <TOK> seen <TOK> <TOK> a <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello
+hi
+i 'm open to any movie What would you recommend me ? i liked @205163
+@183056 is my fav
+i also like scary movies i watched @183056
+how about @103896
+i also watched @187028 NO , i have not seen that one i guess i would try that one tomorrow i also watched @204794 the old one Which another one would you recommend me ?
+
+<<Real Response>> : its by rob Zombie
+<<Created Response>>: I <TOK> <TOK> is . . <TOK> is is <TOK> ! <TOK> <TOK> . <TOK> good <TOK> ! <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> a . <TOK> <TOK> <TOK> good <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello
+hi
+i 'm open to any movie What would you recommend me ? i liked @205163
+@183056 is my fav
+i also like scary movies i watched @183056
+how about @103896
+i also watched @187028 NO , i have not seen that one i guess i would try that one tomorrow i also watched @204794 the old one Which another one would you recommend me ?
+its by rob Zombie
+A funny one Like @78874 by Adan Sandler
+
+<<Real Response>> : <TOK>
+<<Created Response>>: I <TOK> <TOK> <TOK> <TOK> . . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello
+hi
+i 'm open to any movie What would you recommend me ? i liked @205163
+@183056 is my fav
+i also like scary movies i watched @183056
+how about @103896
+i also watched @187028 NO , i have not seen that one i guess i would try that one tomorrow i also watched @204794 the old one Which another one would you recommend me ?
+its by rob Zombie
+A funny one Like @78874 by Adan Sandler
+@99910
+I could enjoyed so much No , i have not watched that one Thank you for helping me Good bye
+
+<<Real Response>> : you 're the same person
+<<Created Response>>: I , ! you ! , . <TOK> is is a a . . . <TOK> . ! . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello
+hi
+i 'm open to any movie What would you recommend me ? i liked @205163
+@183056 is my fav
+i also like scary movies i watched @183056
+how about @103896
+i also watched @187028 NO , i have not seen that one i guess i would try that one tomorrow i also watched @204794 the old one Which another one would you recommend me ?
+its by rob Zombie
+A funny one Like @78874 by Adan Sandler
+@99910
+I could enjoyed so much No , i have not watched that one Thank you for helping me Good bye
+you 're the same person
+Good bye
+
+<<Real Response>> : lol
+<<Created Response>>: I I <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello i would like to see any movie yo recommend me i am open to any movie
+
+<<Real Response>> : Are you looking for something older or newer ?
+<<Created Response>>: Hi , , seen . ! <TOK> of <TOK> you I ? seen . . I of <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello i would like to see any movie yo recommend me i am open to any movie
+Are you looking for something older or newer ?
+i just watched @205163 and i liked it Whatever I also like old movies Like @76012 i can not forget that movie i like scary movies too like @204794 the old one i have not seen @187028 the new one i 've heard is very good i do not know
+
+<<Real Response>> : How about the The sixth __unk__ ?
+<<Created Response>>: I I you . . ? . . . . good <TOK> . <TOK> ! a ? ! is good you . ? <TOK> seen <TOK> is <TOK> <TOK> <TOK> . . . is is a ! <TOK> . . . you is is , like ? it is .
+
+================< NEW LINE >================
+
+<< Context >>
+Hello i would like to see any movie yo recommend me i am open to any movie
+Are you looking for something older or newer ?
+i just watched @205163 and i liked it Whatever I also like old movies Like @76012 i can not forget that movie i like scary movies too like @204794 the old one i have not seen @187028 the new one i 've heard is very good i do not know
+How about the The sixth __unk__ ?
+do you mean __unk__ ? i have not seen it but it sounds awesome Well , thank you for helping me i 'll try that one
+
+<<Real Response>> : Yes that is the movie I suggest .
+<<Created Response>>: I <TOK> <TOK> <TOK> <TOK> ? is is <TOK> <TOK> . a . a is . . <TOK> <TOK> ? <TOK> <TOK> <TOK> <TOK> ! <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+Hello i would like to see any movie yo recommend me i am open to any movie
+Are you looking for something older or newer ?
+i just watched @205163 and i liked it Whatever I also like old movies Like @76012 i can not forget that movie i like scary movies too like @204794 the old one i have not seen @187028 the new one i 've heard is very good i do not know
+How about the The sixth __unk__ ?
+do you mean __unk__ ? i have not seen it but it sounds awesome Well , thank you for helping me i 'll try that one
+Yes that is the movie I suggest .
+good bye remember to say good bye
+
+<<Real Response>> : Goodbye
+<<Created Response>>: I I good . a . . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like scary movies , can you make a suggestion ?
+
+<<Real Response>> : Have you ever seen <TOK>
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like scary movies , can you make a suggestion ?
+Have you ever seen @185171
+not yet is it good
+
+<<Real Response>> : Yes very much so ! It is about paranormal __unk__ but it was definitely scary
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like scary movies , can you make a suggestion ?
+Have you ever seen @185171
+not yet is it good
+Yes very much so ! It is about paranormal __unk__ but it was definitely scary
+Can you make other __unk__ suggestions or slasher films like @150352 are good to
+
+<<Real Response>> : I was n't a big fan of <TOK> have you seen that at all ?
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> . like . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+I like scary movies , can you make a suggestion ?
+Have you ever seen @185171
+not yet is it good
+Yes very much so ! It is about paranormal __unk__ but it was definitely scary
+Can you make other __unk__ suggestions or slasher films like @150352 are good to
+I was n't a big fan of @127673 have you seen that at all ?
+oh yes and the sequel @84363 These are good suggestions though thank you !
+
+<<Real Response>> : absolutely , enjoy !
+<<Created Response>>: I <TOK> <TOK> <TOK> a . good you like . . . <TOK> . <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hello
+
+<<Real Response>> : Hi , I 'm looking for a good __unk__
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hello
+Hi , I 'm looking for a good __unk__
+i 'm open to any movie
+
+<<Real Response>> : any suggestions ?
+<<Created Response>>: I you you . you is <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hello
+Hi , I 'm looking for a good __unk__
+i 'm open to any movie
+any suggestions ?
+Man , right now i 'm the seeker the person who is looking for movies so that means you are the person who recommend
+
+<<Real Response>> : my apologies
+<<Created Response>>: I you you <TOK> you you <TOK> . <TOK> ! you ! ? <TOK> ? you you . . . <TOK> ! you you <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hello
+Hi , I 'm looking for a good __unk__
+i 'm open to any movie
+any suggestions ?
+Man , right now i 'm the seeker the person who is looking for movies so that means you are the person who recommend
+my apologies
+you can read that onto the chat Do n't worry man we are here to help So i 'm looking for any movies i watched @78874 and i liked it
+
+<<Real Response>> : Have you seen <TOK>
+<<Created Response>>: I you you you . <TOK> . you it <TOK> . . . <TOK> . a I you you seen <TOK> <TOK> <TOK> ? . good . ? . .
+
+================< NEW LINE >================
+
+<< Context >>
+hello
+Hi , I 'm looking for a good __unk__
+i 'm open to any movie
+any suggestions ?
+Man , right now i 'm the seeker the person who is looking for movies so that means you are the person who recommend
+my apologies
+you can read that onto the chat Do n't worry man we are here to help So i 'm looking for any movies i watched @78874 and i liked it
+Have you seen @205163
+I like movies made by Adan Sandler Yes and i liked it ! i also watched @99583 i like those kind of movies i watched @136632 and it was awesome
+
+<<Real Response>> : My favorite Adam Sandler movie is definitely <TOK>
+<<Created Response>>: <TOK> <TOK> <TOK> <TOK> is <TOK> . <TOK> <TOK> <TOK> . <TOK> a <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> I <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> good a
+
+================< NEW LINE >================
+
+<< Context >>
+hello
+Hi , I 'm looking for a good __unk__
+i 'm open to any movie
+any suggestions ?
+Man , right now i 'm the seeker the person who is looking for movies so that means you are the person who recommend
+my apologies
+you can read that onto the chat Do n't worry man we are here to help So i 'm looking for any movies i watched @78874 and i liked it
+Have you seen @205163
+I like movies made by Adan Sandler Yes and i liked it ! i also watched @99583 i like those kind of movies i watched @136632 and it was awesome
+My favorite Adam Sandler movie is definitely @181301
+Remember to say good bye at the end of this chat And i wait for you in another chat ; ) Thank you very much
+
+<<Real Response>> : thank you , good bye
+<<Created Response>>: I I you you I I <TOK> . ! ! . . ? <TOK> a you a <TOK> you ! is . . a ! <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+
+<< Context >>
+hello
+Hello , I am looking for some movie recommendations . Do you have any Horror Movies that you could suggest for me ?
+
+<<Real Response>> : I do ! have you ever seen <TOK> ?
+<<Created Response>>: Hi you <TOK> <TOK> seen <TOK> a of . . <TOK> <TOK> <TOK> <TOK> . ? you <TOK> , ! <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK> <TOK>
+
+================< NEW LINE >================
+

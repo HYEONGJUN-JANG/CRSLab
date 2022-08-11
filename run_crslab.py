@@ -42,8 +42,10 @@ if __name__ == '__main__':
     parser.add_argument('-tb', '--tensorboard', action='store_true',
                         help='enable tensorboard to monitor train performance')
     args, _ = parser.parse_known_args()
+
     config = Config(args.config, args.gpu, args.debug)
 
+    args.tensorboard=True
     from crslab.quick_start import run_crslab
 
     run_crslab(config, args.save_data, args.restore_data, args.save_system, args.restore_system, args.interact,
