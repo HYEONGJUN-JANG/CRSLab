@@ -16,7 +16,7 @@ from crslab.evaluator.metrics.base import AverageMetric
 from crslab.evaluator.metrics.gen import PPLMetric
 from crslab.system.base import BaseSystem
 from crslab.system.utils.functions import ind2txt
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, precision_score, recall_score
 
 class KGSFSystem(BaseSystem):
     """This is the system for KGSF model"""
@@ -188,7 +188,9 @@ class KGSFSystem(BaseSystem):
                 self.f1rec_true.extend(rec_f1[0])
                 self.f1rec_pred.extend(rec_f1[1])
             self.evaluator.report(mode='test')
-            logger.info(f'\nF1_Rec Score For Test : {round(f1_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
+            logger.info(f'\nF1_Rec F1-Score For Test : {round(f1_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
+            logger.info(f'F1_Rec Precision-Score For Test : {round(precision_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
+            logger.info(f'F1_Rec Recall-Score For Test : {round(recall_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
         # self.saveConv(templist)
 
 
