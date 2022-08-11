@@ -55,7 +55,7 @@ class KBRDDataLoader(BaseDataLoader):
 
     def rec_process_fn(self):
         augment_dataset = []
-        for conv_dict in tqdm(self.dataset):
+        for conv_dict in tqdm(self.dataset, bar_format=' {percentage:3.0f} % | {bar:23} {r_bar}'):
             if conv_dict['role'] == 'Recommender':
                 for movie in conv_dict['items']:
                     augment_conv_dict = {'context_entities': conv_dict['context_entities'], 'item': movie}

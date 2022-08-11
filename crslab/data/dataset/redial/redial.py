@@ -147,7 +147,7 @@ class ReDialDataset(BaseDataset):
     def _raw_data_process(self, raw_data):
         augmented_convs = [self._merge_conv_data(conversation["dialog"]) for conversation in tqdm(raw_data)]
         augmented_conv_dicts = []
-        for conv in tqdm(augmented_convs):
+        for conv in tqdm(augmented_convs, bar_format=' {percentage:3.0f} % | {bar:23} {r_bar}'):
             augmented_conv_dicts.extend(self._augment_and_add(conv))
         return augmented_conv_dicts
 

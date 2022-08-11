@@ -37,9 +37,9 @@ rec:
   stop_mode: min
 conv:
   epoch: 50 #default
+  batch_size: 128 # default
 #  epoch: 15
-#  batch_size: 128 # default
-  batch_size: 32
+  # batch_size: 32
   optimizer:
     name: Adam
     lr: !!float 1e-3

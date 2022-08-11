@@ -182,7 +182,7 @@ class BaseDataLoader(ABC):
 
         """
         dataset = []
-        for conv_dict in tqdm(self.dataset):
+        for conv_dict in tqdm(self.dataset, bar_format=' {percentage:3.0f} % | {bar:23} {r_bar}'):
             if conv_dict['role'] == 'Recommender':
                 dataset.append(conv_dict)
         return dataset

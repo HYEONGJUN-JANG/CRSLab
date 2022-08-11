@@ -224,7 +224,7 @@ class KGSFSystem(BaseSystem):
         return txt.rstrip()
 
     def saveConv(self,convlist):
-        path=f"./convlog_{str(self.model.module).split('(')[0]}.txt"
+        path=f"./convlog_{str(self.model.module).split('(')[0]}_withcopying.txt"
         with open(path,'w',encoding='UTF-8') as f:
             for i in convlist:
                 for k in i:
