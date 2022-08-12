@@ -203,6 +203,11 @@ class KGSFSystem(BaseSystem):
 
 
     def fit(self):
+        if sysChecker() == 'Linux':  # HJ KT-Server
+            self.pretrain()
+            self.train_recommender()
+        elif sysChecker() == "Windows":  # HJ Local
+            pass
         # self.pretrain()
         # self.train_recommender()
         self.train_conversation()
