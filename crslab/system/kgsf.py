@@ -17,7 +17,7 @@ from crslab.evaluator.metrics.gen import PPLMetric
 from crslab.system.base import BaseSystem
 from crslab.system.utils.functions import ind2txt
 from sklearn.metrics import f1_score, precision_score, recall_score
-
+from platform import system as sysChecker
 class KGSFSystem(BaseSystem):
     """This is the system for KGSF model"""
 
@@ -56,7 +56,13 @@ class KGSFSystem(BaseSystem):
         self.conv_batch_size = self.conv_optim_opt['batch_size']
         self.f1rec_true=[]
         self.f1rec_pred=[]
-
+        if sysChecker() == 'Linux':  # HJ KT-Server
+            self.conv_epoch=90
+        elif sysChecker() == "Windows":  # HJ Local
+            self.conv_epoch = 1
+        else:
+            print("Check Your Platform")
+            exit()
     def rec_evaluate(self, rec_predict, item_label):
         rec_predict = rec_predict.cpu()
         rec_predict = rec_predict[:, self.item_ids]
@@ -191,6 +197,8 @@ class KGSFSystem(BaseSystem):
             logger.info(f'\nF1_Rec F1-Score For Test : {round(f1_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
             logger.info(f'F1_Rec Precision-Score For Test : {round(precision_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
             logger.info(f'F1_Rec Recall-Score For Test : {round(recall_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
+            logger.info(f'F1_Rec Recommend True Counter For Test : {len(list(filter(lambda x : x==1, self.f1rec_true)))}\n')
+            logger.info(f'F1_Rec Pred True Counter For Test : {len(list(filter(lambda x : x==1, self.f1rec_pred)))}\n')
         # self.saveConv(templist)
 
 
