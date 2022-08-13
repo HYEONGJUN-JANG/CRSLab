@@ -199,6 +199,7 @@ class KGSFSystem(BaseSystem):
             logger.info(f'F1_Rec Recall-Score For Test : {round(recall_score(self.f1rec_true, self.f1rec_pred, pos_label=1),2)}\n')
             logger.info(f'F1_Rec Recommend True Counter For Test : {len(list(filter(lambda x : x==1, self.f1rec_true)))}\n')
             logger.info(f'F1_Rec Pred True Counter For Test : {len(list(filter(lambda x : x==1, self.f1rec_pred)))}\n')
+            logger.info(f'Counter For Test : {len(self.f1rec_pred)}\n')
         # self.saveConv(templist)
 
 
