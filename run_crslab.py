@@ -12,6 +12,8 @@ import warnings
 
 from crslab.config import Config
 from torch import cuda
+from platform import system as sysChecker
+
 warnings.filterwarnings('ignore')
 
 if __name__ == '__main__':
@@ -44,6 +46,16 @@ if __name__ == '__main__':
     args, _ = parser.parse_known_args()
 
     config = Config(args.config, args.gpu, args.debug)
+    if sysChecker() == 'Linux':  # HJ KT-server
+        pass
+    elif sysChecker() == "Windows":  # HJ local
+        config.opt['conv']['epoch']=2
+        config.opt['rec']['epoch']=2
+        config.opt['pretrain']['epoch']=0
+        pass
+    else:
+        print("Check Your Platform and use right DataLoader")
+        exit()
 
     from crslab.quick_start import run_crslab
 
